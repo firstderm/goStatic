@@ -1,4 +1,4 @@
-FROM centurylink/ca-certs
+FROM scratch
 
 COPY goStatic /
 ENTRYPOINT ["/goStatic"]
